@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" version="28.0.7">
+  <diagram name="Página-1" id="vPqeiLvXGBtxfzZyGBeG">
+    <mxGraphModel dx="1252" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jbYbaYmmkEo9_wcS4VHx-1" value="Users" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/user_accounts.svg;" vertex="1" parent="1">
+          <mxGeometry x="20" y="30" width="50" height="48.5" as="geometry" />
+        </mxCell>
+        <mxCell id="jbYbaYmmkEo9_wcS4VHx-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="jbYbaYmmkEo9_wcS4VHx-2" target="jbYbaYmmkEo9_wcS4VHx-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jbYbaYmmkEo9_wcS4VHx-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.835;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="jbYbaYmmkEo9_wcS4VHx-2" target="jbYbaYmmkEo9_wcS4VHx-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jbYbaYmmkEo9_wcS4VHx-2" value="Load balance" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.elastic_load_balancing;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="40" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="jbYbaYmmkEo9_wcS4VHx-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jbYbaYmmkEo9_wcS4VHx-1" target="jbYbaYmmkEo9_wcS4VHx-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jbYbaYmmkEo9_wcS4VHx-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jbYbaYmmkEo9_wcS4VHx-4" target="jbYbaYmmkEo9_wcS4VHx-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jbYbaYmmkEo9_wcS4VHx-4" value="Amazon EC2" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.ec2;" vertex="1" parent="1">
+          <mxGeometry x="150" y="160" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jbYbaYmmkEo9_wcS4VHx-5" value="Amazon EC2" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.ec2;" vertex="1" parent="1">
+          <mxGeometry x="350" y="160" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jbYbaYmmkEo9_wcS4VHx-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jbYbaYmmkEo9_wcS4VHx-8" target="jbYbaYmmkEo9_wcS4VHx-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jbYbaYmmkEo9_wcS4VHx-8" value="Amazon S3 de entrada" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
+          <mxGeometry x="250" y="450" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="jbYbaYmmkEo9_wcS4VHx-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jbYbaYmmkEo9_wcS4VHx-11" target="jbYbaYmmkEo9_wcS4VHx-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jbYbaYmmkEo9_wcS4VHx-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jbYbaYmmkEo9_wcS4VHx-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jbYbaYmmkEo9_wcS4VHx-11" value="AWS Lambda" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.lambda;" vertex="1" parent="1">
+          <mxGeometry x="250" y="590" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jbYbaYmmkEo9_wcS4VHx-13" value="Amazon S3 de saida" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
+          <mxGeometry x="150" y="710" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="jbYbaYmmkEo9_wcS4VHx-17" value="Amazon RDS" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.rds;" vertex="1" parent="1">
+          <mxGeometry x="350" y="710" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jbYbaYmmkEo9_wcS4VHx-18" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Portal Web de Processamento de arquivos&lt;/h1&gt;&lt;p&gt;Aqui, o usuário interage com uma aplicação web robusta (hospedada em servidores) para fazer o upload de arquivos pesados, e o processamento de background continua sendo 100% automatizado e leve.&lt;/p&gt;&lt;h3 data-path-to-node=&quot;8&quot;&gt;Como cada serviço se conecta e o que ele faz:&lt;/h3&gt;&lt;ol data-path-to-node=&quot;9&quot; start=&quot;1&quot;&gt;&lt;li&gt;&lt;p data-path-to-node=&quot;9,0,0&quot;&gt;&lt;b data-index-in-node=&quot;0&quot; data-path-to-node=&quot;9,0,0&quot;&gt;ALB (Application Load Balancer):&lt;/b&gt; É a porta de entrada. O usuário não acessa o seu servidor diretamente. O ALB recebe as requisições e as distribui entre as suas instâncias EC2. Se uma cair, ele joga o tráfego para a outra.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p data-path-to-node=&quot;9,1,0&quot;&gt;&lt;b data-index-in-node=&quot;0&quot; data-path-to-node=&quot;9,1,0&quot;&gt;EC2 (Elastic Compute Cloud):&lt;/b&gt; São os seus servidores virtuais. É aqui que roda o código da sua aplicação web (o backend em Java/Spring, Node.js ou Python e o frontend).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p data-path-to-node=&quot;9,2,0&quot;&gt;&lt;b data-index-in-node=&quot;0&quot; data-path-to-node=&quot;9,2,0&quot;&gt;EBS (Elastic Block Store):&lt;/b&gt; É o &quot;disco rígido&quot; conectado diretamente a cada EC2. Ele armazena o sistema operacional, o código-fonte da sua aplicação e os arquivos de log locais do servidor.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p data-path-to-node=&quot;9,3,0&quot;&gt;&lt;b data-index-in-node=&quot;0&quot; data-path-to-node=&quot;9,3,0&quot;&gt;S3 (Simple Storage Service) - Bucket de Entrada:&lt;/b&gt; Quando o usuário faz o upload de uma mídia (um vídeo bruto ou um PDF pesado) através da aplicação que está rodando no &lt;b data-index-in-node=&quot;167&quot; data-path-to-node=&quot;9,3,0&quot;&gt;EC2&lt;/b&gt;, o EC2 envia esse arquivo direto para o S3. &lt;i data-index-in-node=&quot;215&quot; data-path-to-node=&quot;9,3,0&quot;&gt;Por que não salvar no EBS?&lt;/i&gt; Para não lotar o disco do servidor e permitir que o EC2 continue leve e escalável.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p data-path-to-node=&quot;9,4,0&quot;&gt;&lt;b data-index-in-node=&quot;0&quot; data-path-to-node=&quot;9,4,0&quot;&gt;AWS Lambda:&lt;/b&gt; Assim que o arquivo cai no S3, o S3 avisa o Lambda. O Lambda acorda, pega o arquivo, faz uma compressão (ou extrai textos de um PDF) e gera o resultado final.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p data-path-to-node=&quot;9,5,0&quot;&gt;&lt;b data-index-in-node=&quot;0&quot; data-path-to-node=&quot;9,5,0&quot;&gt;S3 - Bucket de Saída:&lt;/b&gt; O Lambda salva o arquivo final otimizado aqui (pronto para o usuário baixar).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p data-path-to-node=&quot;9,6,0&quot;&gt;&lt;b data-index-in-node=&quot;0&quot; data-path-to-node=&quot;9,6,0&quot;&gt;RDS (Relational Database Service):&lt;/b&gt; O Lambda avisa o banco de dados (ex: PostgreSQL/MySQL) que o arquivo &quot;X&quot; foi processado com sucesso. As instâncias &lt;b data-index-in-node=&quot;150&quot; data-path-to-node=&quot;9,6,0&quot;&gt;EC2&lt;/b&gt; consultam esse banco para mostrar na tela do usuário: &lt;i data-index-in-node=&quot;208&quot; data-path-to-node=&quot;9,6,0&quot;&gt;&quot;Seu arquivo está pronto!&quot;&lt;/i&gt;.&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" width="340" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="jbYbaYmmkEo9_wcS4VHx-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jbYbaYmmkEo9_wcS4VHx-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jbYbaYmmkEo9_wcS4VHx-19" value="ebs volume" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.volume;fillColor=#E05243;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="163.75" y="290" width="52.5" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="jbYbaYmmkEo9_wcS4VHx-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jbYbaYmmkEo9_wcS4VHx-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jbYbaYmmkEo9_wcS4VHx-20" value="ebs volume" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.volume;fillColor=#E05243;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="363.75" y="290" width="52.5" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="jbYbaYmmkEo9_wcS4VHx-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jbYbaYmmkEo9_wcS4VHx-5" target="jbYbaYmmkEo9_wcS4VHx-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
